@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    line-height: 30pt;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+
+    // Helps fonts on OSX looks more consistent with other systems
+    // Isn't currently in button styles due to performance concerns
+    * {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  
+
+}
+.anotherClass{
+    display: none;
+}
+.homesection {
+    background-color: #00897B;
+    display: table;
+    width: 100%;
+    height: 40vh;
+    max-height: 100vh;
+    min-height: 100px;
+
+
+    #cover-content{
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 5%;
+
+    h1 {
+        color: rgb(255, 255, 255);
+          letter-spacing: 1pt;
+        font-weight: 100;
+        line-height: 40pt;
+        font-size: 40pt;
+        margin: 20px 20px 0;
+        text-transform: uppercase;
+        }
+    }
+    @media(max-width: 680px){
+                #cover-content{
+                    vertical-align: middle;
+                    text-align: center;
+                    padding: 10%;
+                h1 {
+                    color: rgb(255, 255, 255);
+                    letter-spacing: 1pt;
+                    font-weight: 400;
+                    line-height: 25pt;
+                    font-size: 18pt;
+                    font-weight: bold;
+                    margin: 20px 20px 0;
+                    text-transform: uppercase;
+                    }
+            }
+        }
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+h1 > button {
+    vertical-align: bottom !important;
+}
+
+h1 > .mat-icon-button {
+    line-height: 25px !important;
+}
+
+.container-fluid {
+    width: 85vw;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-container {
+    text-align: left;
+    margin-right: 6%;
+    margin-left: 6%;
+    p {
+        margin: 10px 0 25px 0;
+    }
+
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

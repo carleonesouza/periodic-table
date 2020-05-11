@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "periodic-app": {
+      "hosting": {
+        "acessible-table": [
+          "periodic-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "periodic-app"
+  }
+}

@@ -1,0 +1,70 @@
+
+.middle-item{
+	background-color: #fff;
+	padding-top: 10%;
+	}
+	.area-card{
+		margin-left: 15px;
+		display: flex;
+		align-items: center ;
+		.card-title{
+			text-align: center;
+			text-transform: uppercase;
+			width: 20rem;
+		}
+			@media (max-width: 680px) {
+				margin-left: 0;
+				display:inline;
+				align-items: center ;
+
+				}
+	}
+
+@media (max-width: 680px) {
+	.area-card{
+		height: 100%;
+		min-height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.card-title{
+		   text-align: center;
+		   text-transform: uppercase;
+		   width: 15rem;
+			}
+		}
+}
+.btn-extra-class{
+	background-color: aquamarine;
+}
+.area-social-buttons{
+	padding: 4%;
+	float: right;
+
+	.home-card-2{
+		max-width: 400px;
+
+		.mat-card-title{
+			text-align: center;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	  }
+
+	  .example-header-image {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #00897B;
+		background-size: cover;
+		.mat-icon{
+			color: #fff;
+		}
+	  }
+	  .mat-card-content{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	  }
+}
+
