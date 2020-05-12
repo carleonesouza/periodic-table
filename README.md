@@ -12,7 +12,7 @@ This were just an example of how to adapt an school material or in this case the
 
 The usage include a file in csv format. Installed extensions and tools are free or open source.
 
-##Resources to development (Linux environment )
+## Resources to development (Linux environment )
 
 * [Visual Studio Code](https://code.visualstudio.com/download)
 
