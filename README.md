@@ -39,7 +39,7 @@ The usage include a file in csv format. Installed extensions and tools are free 
 
     ```ng serve -o ```
 
-3. The browser should open with the `-o ` command above, if it does not, just open your browser and to type 
+3. The browser should open with the `-o ` command above, if it does not, just open your browser and type 
 
     ```http://localhost:4200/```
 
