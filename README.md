@@ -12,32 +12,34 @@ This were just an example of how to adapt an school material or in this case the
 
 The usage include a file in csv format. Installed extensions and tools are free or open source.
 
-..* [Visual Studio Code](https://code.visualstudio.com/download)
+⋅⋅* [Visual Studio Code](https://code.visualstudio.com/download)
 
-..* [NodeJs](https://nodejs.org/en/download/current/)  Version: 13.2.0 (includes npm 6.14.4)
+⋅⋅* [NodeJs](https://nodejs.org/en/download/current/)  Version: 13.2.0 (includes npm 6.14.4)
 
-..* [Angular CLI](https://github.com/angular/angular-cli) Version: 8.3.26
+⋅⋅* [Angular CLI](https://github.com/angular/angular-cli) Version: 8.3.26
 
-..* [Angular](https://angular.io/docs) Version: 8.2.14
+⋅⋅* [Angular](https://angular.io/docs) Version: 8.2.14
 
-..* [Angular Material](https://material.angular.io/guide/getting-started) Version: 8.2.3
+⋅⋅* [Angular Material](https://material.angular.io/guide/getting-started) Version: 8.2.3
 
-..* [Flex Layout](https://github.com/angular/flex-layout) Version: 8.0.0*
+⋅⋅* [Flex Layout](https://github.com/angular/flex-layout) Version: 8.0.0
 
-..* [Firebase CLI](https://firebase.google.com/docs/cli#install-cli-mac-linux) Version: 7.12.0
+⋅⋅* [Firebase CLI](https://firebase.google.com/docs/cli#install-cli-mac-linux) Version: 7.12.0
 	
  
 # Running locally
 
 1. To install all packages type this command inside the directory of the project
 
- ```npm install ```
+    ```npm install ```
 
 2. After that, type the command below to run.
 
- ```ng serve -o ```
+    ```ng serve -o ```
 
-3. The browser should open with the `-o ` command above, if it does not, just open your browser and type `http://localhost:4200/`
+3. The browser should open with the `-o ` command above, if it does not, just open your browser and type 
+
+    ```http://localhost:4200/```
 
 ## Code scaffolding
 
