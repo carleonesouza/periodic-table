@@ -1,4 +1,4 @@
-# AcessibleTable
+# Accessible Periodic Table
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) . The point was to organized the application accordingly the [W3C](https://www.w3.org/) recommendation, following the acessibility patterns, especially to the blind people, like HTML and all JavaScript code. 
 
