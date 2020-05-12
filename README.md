@@ -12,9 +12,24 @@ This were just an example of how to adapt an school material or in this case the
 
 The usage include a file in csv format. Installed extensions and tools are free or open source.
 
-## Development server
+[Visual Studio Code](https://code.visualstudio.com/download)
+[NodeJs](https://nodejs.org/en/download/current/)  Version: 13.2.0 (includes npm 6.14.4)
+[Angular CLI](https://github.com/angular/angular-cli) Version: 8.3.26
+[Angular](https://angular.io/docs) Version: 8.2.14
+[Angular Material](https://material.angular.io/guide/getting-started) Version: 8.2.3
+[Flex Layout](https://github.com/angular/flex-layout) Version: 8.0.0*
+[Firebase CLI](https://firebase.google.com/docs/cli#install-cli-mac-linux) Version: 7.12.0
+	
+ 
+# Running locally
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[1.] To install all packages type this command inside the directory of the project
+ ```npm install ```
+
+[2.] After that, type the command below to run.
+ ```ng serve -o ```
+
+[3.] The browser should open with the `-o ` command above, if it does not, just open your browser and type `http://localhost:4200/`
 
 ## Code scaffolding
 
@@ -23,14 +38,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
