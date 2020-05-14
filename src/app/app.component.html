@@ -1,43 +1,43 @@
 <mat-sidenav-container class="app-root" fullscreen>
-        <mat-sidenav class="dark" #start mode="side">
-            <mat-nav-list>
-                <a *ngFor="let navItem of navItems" mat-list-item class="class-list-item" (click)="start.close()"
-                    mat-list-item routerLinkActive="active" #routerLinkActiveInstance="routerLinkActive"
-                    [attr.tabindex]="routerLinkActiveInstance.isActive ? 0 : -1"
-                    [routerLinkActiveOptions]="{exact: navItem.route == '/'}" [routerLink]="[navItem.route]">
-                    {{navItem.name}}
-                </a>
-            </mat-nav-list>
+    <mat-sidenav class="dark" #start mode="side">
+        <mat-nav-list>
+            <a *ngFor="let navItem of navItems" mat-list-item class="class-list-item" (click)="start.close()"
+                mat-list-item routerLinkActive="active" #routerLinkActiveInstance="routerLinkActive"
+                [attr.tabindex]="routerLinkActiveInstance.isActive ? 0 : -1"
+                [routerLinkActiveOptions]="{exact: navItem.route == '/'}" [routerLink]="[navItem.route]">
+                {{navItem.name}}
+            </a>
+        </mat-nav-list>
 
-        </mat-sidenav>
-        <div id="mtor" (mobileModeAction)="mobileModeAction(event)">
-            <mat-toolbar color="primary" class="toolbar">
-                <mat-toolbar-row>
-                    <span *ngIf="mobileMode">
-                        <button mat-icon-button (click)="start.toggle()" aria-label="Menu">
-                            <mat-icon>menu</mat-icon>
-                        </button>
-                        <span id="logo">Tabela Periódica</span>
-                    </span>
-                    <div *ngIf="!mobileMode">
-                        <button mat-button aria-label="Home" [routerLink]="['']">
-                            <img id="user-avatar" alt="logo" src="../../assets/quimica.png" />Tabela Periódica
-                        </button>
-                        <button mat-button [routerLink]="['/elemento']">
-                            A Tabela
-                        </button>
-                        <button mat-button [routerLink]="['/conceitos']">
-                            Conceitos
-                        </button>
-                        <button mat-button [routerLink]="['/ajuda']">
-                            <span>Ajuda</span>
-                        </button>
-                    </div>
-                </mat-toolbar-row>
-            </mat-toolbar>
-    <div #root="dir" dir="ltr" class="app-content">
-        <router-outlet id="main"></router-outlet>
-        <app-footer></app-footer>
-    </div>
+    </mat-sidenav>
+    <div id="mtor" (mobileModeAction)="mobileModeAction(event)">
+        <mat-toolbar color="primary" class="toolbar">
+            <mat-toolbar-row>
+                <span *ngIf="mobileMode">
+                    <button mat-icon-button (click)="start.toggle()" aria-label="Menu">
+                        <mat-icon>menu</mat-icon>
+                    </button>
+                    <span id="logo">Tabela Periódica</span>
+                </span>
+                <div *ngIf="!mobileMode">
+                    <button mat-button aria-label="Home" [routerLink]="['']">
+                        <img id="user-avatar" alt="logo" src="../../assets/quimica.png" />Tabela Periódica
+                    </button>
+                    <button mat-button [routerLink]="['/elemento']">
+                        A Tabela
+                    </button>
+                    <button mat-button [routerLink]="['/conceitos']">
+                        Conceitos
+                    </button>
+                    <button mat-button [routerLink]="['/ajuda']">
+                        <span>Ajuda</span>
+                    </button>
+                </div>
+            </mat-toolbar-row>
+        </mat-toolbar>
+        <div #root="dir" dir="ltr" class="app-content">
+            <router-outlet id="main"></router-outlet>
+            <app-footer></app-footer>
+        </div>
     </div>
 </mat-sidenav-container>
