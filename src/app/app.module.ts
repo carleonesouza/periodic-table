@@ -16,7 +16,7 @@ import {
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from '../pages/home/home.component';
-import { DetailsComponent } from './../pages/element-details/details.component';
+import { DetailsComponent, DialogComponent } from './../pages/element-details/details.component';
 import { TableDetailsComponent, GrupoDetailsComponent, BlocoDetailsComponent } from './../pages/table-details/table-details.component';
 import { NotFoundComponent } from './notfound.component';
 import { Table } from './../models/table';
@@ -40,6 +40,7 @@ export class MyHammerConfig extends HammerGestureConfig  {
     DetailsComponent,
     NotFoundComponent,
     HelpComponent,
+    DialogComponent,
     FooterComponent,
     GrupoDetailsComponent,
     BlocoDetailsComponent
@@ -64,8 +65,7 @@ export class MyHammerConfig extends HammerGestureConfig  {
     RouterModule
   ]
   ,
-  entryComponents: [
-    AppComponent],
+  entryComponents: [AppComponent, DialogComponent],
 
   providers: [Table,
     {provide: HAMMER_GESTURE_CONFIG,
